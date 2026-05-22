@@ -1,0 +1,40 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# User-specific settings
+UserSettings/
+
+# Visual Studio / Rider
+.vs/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.suo
+*.tmp
+*.userprefs
+*.booproj
+
+# Unity cache
+[Bb]urstCache/
+[Bb]ee/
+[Bb]uildProgramData/
+[Bb]uildProgram/
+[Bb]uildCache/
+
+# Crash reports
+sysinfo.txt
+
+# Package manager
+Packages/com.unity.collab-proxy/
+
+# OS generated files
+.DS_Store
+Thumbs.db

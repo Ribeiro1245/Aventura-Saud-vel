@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6984419960189019505}
   - component: {fileID: 7441693411963203128}
   m_Layer: 5
-  m_Name: Fruta
+  m_Name: Fruta 1
   m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4337086038352537680, guid: a074563e9203255409ec87154d150f41, type: 3}
+  m_Sprite: {fileID: 5013283452240835332, guid: 0400ccfbe359dc54aa18f265c47b4066, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f9bbc4955a2a4b4fb82ff19b48c06f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FruitUI
-  speed: 150
+  speed: 300
 --- !u!61 &6984419960189019505
 BoxCollider2D:
   m_ObjectHideFlags: 0

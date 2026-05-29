@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.105882354, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -870,12 +870,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1500458813}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86d065f1686f9a24bbbf801798b5300f, type: 3}
+  m_Script: {fileID: 11500000, guid: 71fbf999d5928af47a1f23f20eb6718e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FruitSpawnerUI
+  m_EditorClassIdentifier: Assembly-CSharp::FruitSpawnerLevel3
   fruitPrefab: {fileID: 832632451681586839, guid: 9fb23bf5ba0407b4d963922d87ad30aa, type: 3}
+  hamburguerPrefab: {fileID: 6770204462524893091, guid: 43f6dd6fcb0ea4e4d96c453b0305a862, type: 3}
   canvasRect: {fileID: 1829348173}
-  totalFruits: 40
+  totalFruits: 20
+  totalHamburguers: 5
 --- !u!1 &1829348169
 GameObject:
   m_ObjectHideFlags: 0

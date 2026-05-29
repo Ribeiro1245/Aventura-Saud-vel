@@ -39,6 +39,12 @@ public class GameManagerUI : MonoBehaviour
             SceneManager.LoadScene("Game Over");
     }
 
+    public void LosePoints(int amount)
+{
+    score -= amount;
+    if (score < 0) score = 0;
+    UpdateUI();
+}
     void UpdateUI()
     {
         scoreText.text = "Pontos: " + score;

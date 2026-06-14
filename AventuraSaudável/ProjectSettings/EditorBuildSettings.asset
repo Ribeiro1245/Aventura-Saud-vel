@@ -8,6 +8,36 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Ribeiro/N\xEDvel 1_ChuvaSaud\xE1vel.unity"
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Carla/PaginaJogarCarla.unity
+    guid: d8b4d627fd5122c49bb635bea95c1db2
+  - enabled: 1
+    path: Assets/Scenes/Carla/Nivel1CorridaSaudavel.unity
+    guid: cee803aae2a314544af2b96c5db2f052
+  - enabled: 1
+    path: Assets/Scenes/Carla/PaginaComoJogarCarla.unity
+    guid: 3c13c8b92eda85d438d3e99a3e13c99d
+  - enabled: 1
+    path: Assets/Scenes/Carla/PaginaNiveisCarla.unity
+    guid: 472c3c84f7028e646b73bd67fc3ce735
+  - enabled: 1
+    path: Assets/Scenes/Carla/Aprender/1GrupoAlimentarCarla.unity
+    guid: cb508ece4a7d5c24199de8f14ef69b4d
+  - enabled: 1
+    path: Assets/Scenes/Carla/Aprender/1QuizzgrupoAlimentarCarla.unity
+    guid: b4c06522f3140a54498f105262791d13
+  - enabled: 1
+    path: Assets/Scenes/Carla/Aprender/2GrupoAlimentarCarla.unity
+    guid: 77d952a8452986048b5ee0f009034c43
+  - enabled: 1
+    path: Assets/Scenes/Carla/Aprender/2QuizzgrupoAlimentarCarla.unity
+    guid: 1612d1a0d3ccfb04a957c5870a262a3c
+  - enabled: 1
+    path: Assets/Scenes/Carla/Aprender/3QuizzgrupoAlimentarCarla.unity
+    guid: 80fd415ad87ba454a980334913dcc3e5
+  - enabled: 1
+    path: Assets/Scenes/Carla/Aprender/FimJogoQuizzgrupoAlimentarCarla 1.unity
+    guid: 7732550776e88704ea31d31ae062f7c5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

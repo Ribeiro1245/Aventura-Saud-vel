@@ -12,35 +12,43 @@ public class QuizBotao : MonoBehaviour
 
     public static int pontos = 0;
 
+    private bool respondeu = false;
+
     void Start()
     {
-        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "1QuizzgrupoAlimentarCarla")
-    {
-        pontos = 0;
-    }
-
+       if (SceneManager.GetActiveScene().name == "1QuizzgrupoAlimentarCarla")
+{
+    pontos = 0;
+    PlayerPrefs.DeleteAll();
+}
         imagemBotao = GetComponent<Image>();
         GetComponent<Button>().onClick.AddListener(Clicar);
     }
 
-    void Clicar()
-    {
-        if (respostaCorreta)
-        {
-            imagemBotao.color = Color.green;
-            pontos++;
-        }
-        else
-        {
-            imagemBotao.color = Color.red;
-        }
+   void Clicar()
+{
+    string perguntaAtual = SceneManager.GetActiveScene().name;
 
-        StartCoroutine(IrParaProximaCena());
+    if (PlayerPrefs.GetInt(perguntaAtual, 0) == 1)
+        return;
+
+    PlayerPrefs.SetInt(perguntaAtual, 1);
+
+    if (respostaCorreta)
+    {
+        imagemBotao.color = Color.green;
+        pontos++;
+    }
+    else
+    {
+        imagemBotao.color = Color.red;
     }
 
-    IEnumerator IrParaProximaCena()
-    {
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene(proximaCena);
-    }
+    StartCoroutine(IrParaProximaCena());
+}
+IEnumerator IrParaProximaCena()
+{
+    yield return new WaitForSeconds(1f);
+    SceneManager.LoadScene(proximaCena);
+}
 }

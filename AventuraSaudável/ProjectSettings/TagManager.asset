@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fruit
   - Hamburguer
+  - Chao
   layers:
   - Default
   - TransparentFX

@@ -30,7 +30,21 @@ public class VidaManager : MonoBehaviour
 
             if (vidaAtual == 6)
             {
-                SceneManager.LoadScene("GanhouCarla");
+                string nivelAtual =
+                SceneManager.GetActiveScene().name;
+
+                if (nivelAtual.Contains("1"))
+                {
+                    SceneManager.LoadScene("1GanhouCarla");
+                }
+                else if (nivelAtual.Contains("2"))
+                {
+                    SceneManager.LoadScene("2GanhouCarla");
+                }
+                else if (nivelAtual.Contains("3"))
+                {
+                    SceneManager.LoadScene("3GanhouCarla");
+                }
             }
         }
     }
@@ -44,7 +58,21 @@ public class VidaManager : MonoBehaviour
 
             if (vidaAtual == 0)
             {
-                SceneManager.LoadScene("PerdeuCarla");
+                string nivelAtual =
+                SceneManager.GetActiveScene().name;
+
+                if (nivelAtual.Contains("1"))
+                {
+                    SceneManager.LoadScene("1PerdeuCarla");
+                }
+                else if (nivelAtual.Contains("2"))
+                {
+                    SceneManager.LoadScene("2PerdeuCarla");
+                }
+                else if (nivelAtual.Contains("3"))
+                {
+                    SceneManager.LoadScene("3PerdeuCarla");
+                }
             }
         }
     }

@@ -955,7 +955,6 @@ MonoBehaviour:
   comidas:
   - {fileID: 7506960262365912235, guid: cea0aca707baf7f4d8c4426212091300, type: 3}
   - {fileID: 3015823323198815629, guid: d0c8351f8c76c3c439557a4e62303ede, type: 3}
-  - {fileID: 6496748814378159941, guid: ea57671de287cda4ba9f11fc5579bdb3, type: 3}
   - {fileID: 6154276343202200022, guid: fe6d1e617bbf55049b90493a7308c8f3, type: 3}
   - {fileID: 6154276343202200022, guid: 1e11be9e587b0474e95d5a331882e36f, type: 3}
   - {fileID: 6154276343202200022, guid: 503b2be3640fb9a4bbba84dc233dc4b8, type: 3}
@@ -1834,7 +1833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e53bc7a90298df54c921d5fd71fa16a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Temporizador
-  tempo: 15
+  tempo: 30
   textoTempo: {fileID: 2041169406}
 --- !u!4 &1855555449
 Transform:
@@ -1996,7 +1995,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 15
+  m_text: 30
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

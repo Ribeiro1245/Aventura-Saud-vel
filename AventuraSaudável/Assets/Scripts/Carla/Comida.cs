@@ -8,8 +8,17 @@ public class Comida : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            Temporizador temporizador =
+            FindFirstObjectByType<Temporizador>();
+
+            if (temporizador != null &&
+                temporizador.tempo <= 0)
+            {
+                return;
+            }
+
             VidaManager vida =
-                FindFirstObjectByType<VidaManager>();
+            FindFirstObjectByType<VidaManager>();
 
             if (comidaBoa)
             {

@@ -39,10 +39,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Carla/Aprender/FimJogoQuizzgrupoAlimentarCarla 1.unity
     guid: 7732550776e88704ea31d31ae062f7c5
   - enabled: 1
-    path: Assets/Scenes/Carla/GanhouCarla.unity
+    path: Assets/Scenes/Carla/1GanhouCarla.unity
     guid: a6e7350eecb511647ae172348226f189
   - enabled: 1
-    path: Assets/Scenes/Carla/PerdeuCarla.unity
+    path: Assets/Scenes/Carla/1PerdeuCarla.unity
     guid: 62648de21dc81944bbba6fd2dd7e9b6e
   - enabled: 1
     path: Assets/Scenes/Carla/Nivel2CorridaSaudavel.unity
@@ -50,6 +50,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Carla/Nivel3CorridaSaudavel.unity
     guid: ccdbacd59f58dbb45b86b51f851a24d4
+  - enabled: 1
+    path: Assets/Scenes/Carla/2GanhouCarla.unity
+    guid: 8001259bd28296644b4ce54153725961
+  - enabled: 1
+    path: Assets/Scenes/Carla/2PerdeuCarla.unity
+    guid: 9ccbfa0da00985b4a9f5400242c389a5
+  - enabled: 1
+    path: Assets/Scenes/Carla/3GanhouCarla.unity
+    guid: c2e0e4af05986fb498e6bea543908220
+  - enabled: 1
+    path: Assets/Scenes/Carla/3PerdeuCarla.unity
+    guid: 445a82794b1d0b94ab11d61745cc0347
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

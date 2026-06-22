@@ -71,6 +71,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Carla/2PerdeuCarla.unity
     guid: 6f79b42ab113e54409ce184d36acc4de
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 92096f213b492964e82970ad593a0191
+  - enabled: 1
+    path: Assets/Scenes/MenuAprender.unity
+    guid: 4c83ad1750b004e4081968fb7c3506c9
+  - enabled: 1
+    path: Assets/Scenes/MenuJogar.unity
+    guid: d2f958b03b1d3ca44b6241888bdb7d48
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -2654,8 +2654,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1590218058}
-        m_TargetAssemblyTypeName: MudarPagina, Assembly-CSharp
-        m_MethodName: IrParaPagina
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: LoadSceneByName
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

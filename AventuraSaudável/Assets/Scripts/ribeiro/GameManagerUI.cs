@@ -30,14 +30,17 @@ public class GameManagerUI : MonoBehaviour
 
 
     public void LoseLife()
-    {
-         Debug.Log("LoseLife FOI CHAMADO!");
-        lives--;
-        UpdateUI();
+{
+    lives--;
+    UpdateUI();
 
-        if (lives <= 0)
-            SceneManager.LoadScene("Game Over");
+    if (lives <= 0)
+    {
+        PlayerPrefs.SetInt("FinalScore", score);
+        SceneManager.LoadScene("Game Over");
     }
+}
+
 
     public void LosePoints(int amount)
 {

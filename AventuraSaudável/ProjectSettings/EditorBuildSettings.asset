@@ -80,6 +80,46 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuJogar.unity
     guid: d2f958b03b1d3ca44b6241888bdb7d48
+  - enabled: 1
+    path: Assets/Scenes/Ribeiro/Game Over.unity
+    guid: d2a1bccb78d571b43a083e8b8f98f779
+  - enabled: 1
+    path: Assets/Scenes/Ribeiro/Game Win.unity
+    guid: 6976961ea26cf8740a87f1e1f7ab0be4
+  - enabled: 1
+    path: "Assets/Scenes/Ribeiro/N\xEDvel 2_ChuvaSaud\xE1vel.unity"
+    guid: d19cd2b08efd004418ac66334670ed17
+  - enabled: 1
+    path: "Assets/Scenes/Ribeiro/N\xEDvel 3_ChuvaSaud\xE1vel.unity"
+    guid: fb518e1c9b6ff0a4f866827089fa5f5e
+  - enabled: 1
+    path: Assets/Scenes/Ribeiro/PaginaComoJogarRibeiro.unity
+    guid: ae3d6a06344b9cf429b029957316e990
+  - enabled: 1
+    path: Assets/Scenes/Ribeiro/PaginaJogarRibeiro.unity
+    guid: 8fc635b9f09bbe44e8d268295f0d205e
+  - enabled: 1
+    path: Assets/Scenes/Ribeiro/PaginaNiveisRibeiro.unity
+    guid: 6f5db3c8fcdb25a46a3bd1f91f572430
+  - enabled: 1
+    path: "Assets/Scenes/Ribeiro/Aprender Ribeiro/1H\xE1bitos Saud\xE1veis.unity"
+    guid: 0f82c6b38679ee648bd4003da46b9551
+  - enabled: 1
+    path: "Assets/Scenes/Ribeiro/Aprender Ribeiro/1QuizH\xE1bitosSaudaveis.unity"
+    guid: db65b57c6a9b96045baae14518829561
+  - enabled: 1
+    path: "Assets/Scenes/Ribeiro/Aprender Ribeiro/2H\xE1bitos Saud\xE1veis.unity"
+    guid: 4b349e825c18c6d41afb76411a1dd386
+  - enabled: 1
+    path: "Assets/Scenes/Ribeiro/Aprender Ribeiro/2QuizH\xE1bitosSaudaveis.unity"
+    guid: 092eef6c44f91a641831843f8d27dd89
+  - enabled: 1
+    path: "Assets/Scenes/Ribeiro/Aprender Ribeiro/3QuizgrupoH\xE1bitos Saud\xE1veis
+      Ribeiro.unity"
+    guid: 64fa24ecc57895844a6b8d0c53a08084
+  - enabled: 1
+    path: "Assets/Scenes/Ribeiro/Aprender Ribeiro/FimJogoQuizH\xE1bitosSaud\xE1veisRibeiro.unity"
+    guid: 0b15fa96b76f4e34db3744fd7a805c8c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

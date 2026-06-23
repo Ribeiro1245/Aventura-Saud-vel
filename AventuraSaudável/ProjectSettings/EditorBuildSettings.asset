@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Carla/PaginaJogarCarla.unity
     guid: d8b4d627fd5122c49bb635bea95c1db2
   - enabled: 1
-    path: Assets/Scenes/Carla/Nivel1CorridaSaudavel.unity
+    path: Assets/Scenes/Carla/Nivel11CorridaSaudavel.unity
     guid: cee803aae2a314544af2b96c5db2f052
   - enabled: 1
     path: Assets/Scenes/Carla/PaginaComoJogarCarla.unity
@@ -81,6 +81,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuJogar.unity
     guid: d2f958b03b1d3ca44b6241888bdb7d48
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scenes/Ribeiro/Game Over.unity
     guid: d2a1bccb78d571b43a083e8b8f98f779
   - enabled: 1
@@ -120,6 +121,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Ribeiro/Aprender Ribeiro/FimJogoQuizH\xE1bitosSaud\xE1veisRibeiro.unity"
     guid: 0b15fa96b76f4e34db3744fd7a805c8c
+=======
+    path: Assets/Scenes/Carla/Nivel1CorridaSaudavel.unity
+    guid: eabe96aa957bff24db3eb85912fbbdbb
+>>>>>>> Stashed changes
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
